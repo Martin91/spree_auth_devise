@@ -1,0 +1,56 @@
+zh-CN:
+  logged_in_as: "已登录为:"
+  logged_in_succesfully: "登陆成功"
+  logged_out: "已注销登录"
+  login: "登录"
+  login_as_existing: "作为已有帐号登录"
+  login_failed: "登录验证失败"
+  login_name: "登录"
+  logout: "登出"
+
+  errors:
+    messages:
+      not_found: '未知'
+      already_confirmed: '已确认'
+      not_locked: '已解锁' 
+      not_saved:
+        one: '以下错误导致 %{resource} 无法保存:'
+        other: '以下错误导致 %{resource} 无法保存:'
+  devise:
+    failure:
+      unauthenticated: '您需要登录或者注册之后才能继续操作。'
+      unconfirmed: '请先确认您的帐号信息。'
+      locked: '您的帐号已被锁定。'
+      invalid: '不合法的邮箱或密码。'
+      invalid_token: '非法的令牌。'
+      timeout: '登录超时，请重新登录。'
+      inactive: '您的帐号尚未激活。'
+    user_passwords:
+      user:
+        cannot_be_blank: '您的密码不能为空。'
+        send_instructions: '您将会收到由我们发出的关于如何重置密码的说明邮件。'
+        updated: '您的密码修改成功，您现在处于登录状态。'
+    confirmations:
+      send_instructions: '您将在几分钟内接到我们关于如何确认帐号的邮件。'
+      confirmed: '您已成功确认您的帐号。'
+    user_registrations:
+      signed_up: '欢迎！您已成功注册您的帐号。'
+      inactive_signed_up: '您已成功注册新的帐号，但是由于%{reason}的原因，我们暂且无法激活您的帐号。'
+      updated: '您已成功更新帐号。'
+      destroyed: '您已取消帐号的注册。'
+    user_sessions:
+      signed_in: '您已成功登录。'
+      signed_out: '您已成功注销登录。'
+    unlocks:
+      send_instructions: '您将在几分钟内接收到关于如何解锁帐号的邮件。'
+      unlocked: '您已成功解锁帐号。'
+    oauth_callbacks:
+      success: '%{kind}帐号授权成功。'
+      failure: '由于"%{reason}"的原因，%{kind}帐号授权失败。'
+    mailer:
+      confirmation_instructions:
+        subject: '确认指南'
+      reset_password_instructions:
+        subject: '重置密码指南'
+      unlock_instructions:
+        subject: '解锁指南'
