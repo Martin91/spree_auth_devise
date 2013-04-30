@@ -1,10 +1,10 @@
 zh-CN:
-  logged_in_as: "已登录为:"
+  logged_in_as: "已登录为"
   logged_in_succesfully: "登陆成功"
-  logged_out: "已注销登录"
+  logged_out: "您已成功注销登录。"
   login: "登录"
   login_as_existing: "作为已有帐号登录"
-  login_failed: "登录验证失败"
+  login_failed: "登录验证失败。"
   login_name: "登录"
   logout: "登出"
 
@@ -12,7 +12,7 @@ zh-CN:
     messages:
       not_found: '未知'
       already_confirmed: '已确认'
-      not_locked: '已解锁' 
+      not_locked: '已解锁'
       not_saved:
         one: '以下错误导致 %{resource} 无法保存:'
         other: '以下错误导致 %{resource} 无法保存:'
